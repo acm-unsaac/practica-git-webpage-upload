@@ -20,6 +20,10 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 99;
 }
 main {
   display: flex;
@@ -119,6 +123,9 @@ section {
   box-shadow: 0px 2px 3px 1px rgba(0, 0, 0, 0.5);
   color: white;
 }
+.first{
+  margin-top: 160px;
+}
 .first .content {
   margin-right: 160px;
 }
@@ -198,7 +205,7 @@ input::placeholder{
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
+    
     margin-left: 100px;
 }
 .menu-footer ul{
