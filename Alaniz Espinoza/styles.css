@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #ffffff;
+    color: #656565;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #656565;
+    text-decoration: none;
+}
+
+section {
+    padding: 5px;
+    text-align:left;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #FF9000;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    box-shadow: inset 0px 4px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+
+.button2 {
+    padding: 7px 20px;
+    background-color: white;
+    color: #FF9000;
+    border: 2px solid #FF9000;
+    cursor: pointer;
+}
+
+.button3 {
+    padding: 20px 30px;
+    font-size: 24px;
+    background-color: #FF9000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top:50px; 
+    box-shadow: inset 0px 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+#inicio {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    margin-left: 100px;
+}
+
+.contenido {
+    flex: 1;
+    padding: 20px;
+}
+
+.imagen {
+    flex: 1;
+    text-align: right;
+    padding: 20px;
+}
+
+.imagen img {
+    max-width: 100%;
+    margin-left: 70px;
+}
+
+.imagen2 img{
+    flex: 1;
+    text-align: right;
+    padding: 70px;
+    max-width: 100%;
+}
+
+
+h1 {
+    font-size: 72px;
+    font-weight: bold;
+    color: #212E41; 
+    margin-bottom: 7px; 
+}
+
+.sales {
+    display: block;
+    color: #FF9000;
+    margin-top: -0.3em;
+
+}
+
+.dd {
+    color: #FF9000;
+
+}
+
+
+h3 {
+    font-size: 24px;
+    font-weight:600;
+    color: #212E41; 
+    margin-bottom: 6px; 
+    margin-top: -0.1em;
+}
+
+p{
+    color:#656565;
+    margin-right: 200px;
+}
+
+.old-price {
+    font-size: 80%;
+    font-weight:500;
+    color: #8d95a2; 
+    text-decoration: line-through;
+}
+
+.bloque-color {
+    background-color: #FF9000; 
+    padding: 20px; 
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center;
+}
+
+.bloque-color img {
+    max-width: 100%;
+}
+
+footer {
+    background-color: #212E41;
+    padding: 20px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.footer-title {
+    font-size: 48px;
+    font-weight: 500;
+    color:#ffffff;
+    margin-top:100px
+}
+
+.email-input {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 10px;
+   
+}
+
+.email-input input {
+    padding: 20px 30px;
+    font-family: "Poppins";
+    width: 400px;
+    color: #C4C4C4;
+    border-radius: 10px;
+
+}
+
+.email-input button {
+    padding: 20px 30px;
+    background-color: #FF9000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    font-family: "Poppins";
+    width: 250px;
+    border-radius: 10px;
+    margin-top: -0.03cm;
+}
+
+.footer-info {
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+}
+
+
+.image-container img {
+    display: block; 
+    margin-bottom: 10px; 
+}
+
+.image-container p {
+    font-size: 14px;
+    text-align: left; 
+}
+
+.footer-nav {
+    align-items: flex-start;
+    margin-top: 20px;
+    flex: 1;
+    background-color: #212E41;
+}
+
+.footer-nav ul {
+    list-style-type: none;
+}
+
+.footer-nav ul.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.footer-nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-nav li a {
+    color: #656565;
+    text-decoration: none;
+}
+
+
+.image-container {
+    flex:1cm
+}
+
+.image-container img {
+    max-width: 100%;
+}
+
+.copyright {
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color:#656565
+}
