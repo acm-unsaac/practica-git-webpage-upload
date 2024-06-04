@@ -1,0 +1,415 @@
+/* Reset some default browser styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+    font-family:  'Poppins', sans-serif ;
+    color: #212E41;
+}
+
+/* Set a background color and font for the body *
+
+/* Style the header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    font-family: 'Poppins', sans-serif    ;
+  }
+
+/* Style the main content area */
+main {
+    padding: 20px;
+}
+
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+del {
+    text-decoration: line-through;
+    color: grey; /* Set the text color to grey */
+    font-size: 0.95em; /* Set the font size to 90% of the normal text */
+  }
+  
+.buttons button {
+    margin-left: 10px; /* Add some space between the buttons */
+    padding: 8px 16px;
+    color: none;
+    border: 2px solid #FF9000;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+.signb{
+    background-color: #FF9000;
+    color: white;
+    margin-right: 20px;
+}
+.logb{
+    background-color: white;
+    border:2px solid #FF9000;
+    color: #FF9000;
+}
+
+  .buttons button:hover {
+    opacity: 0.9;
+  }
+
+.home{
+    color: #FF9000;
+
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  nav ul li {
+    margin-right: 30px; /* Adjust spacing between links */
+  }
+  
+  nav ul li :last-child{
+    margin-right: 0px;
+  }
+  
+  nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: black; /* Set link color */
+    padding-right: 25px;
+  }
+.buttons{
+    display: flex;
+    align-items: center;
+    padding-right: 25px;
+}
+
+
+.title {
+    display: inline-block; /* Ensure the logo and title are on the same line */
+    font-size: 40px; /* Adjust the font size of the title as needed */
+    line-height: 1; /* Center the title vertically */
+    font-weight: bold;
+  }
+
+  .title::before {
+    content: "Hum";
+    color: orange;
+  }
+  
+  .title::after {
+    content: "ans";
+    color: black;
+  }
+
+.orange{
+    color: #FF9000;
+}
+.black{
+    color: black;
+}
+.logo{
+    display: inline-block;
+}
+.leftsec {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    padding-left: 100px;
+  }
+  .rightsec {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
+    padding-right: 100px;
+  }
+
+/* Hero section*/
+
+.herosection{
+    display: flex;
+    align-items: center;
+}
+
+.herotext{
+    flex: 0 0 400px;
+    margin-left: 300px;
+}
+.herotext h1 {
+    font-size: 60px;
+    padding-bottom: 30px;
+    font-weight: bolder;
+}
+.herotext h1::after{
+    content: "Sales";
+    color: #FF9000;
+}
+.herotext p{
+    font-size: none;
+}
+.texto{
+    font-size: 17px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.playnow{
+    padding-top: 30px;
+    color: white;
+    background-color: #FF9000;
+
+    padding: 16px 32px;
+    color: none;
+    border: 2px solid #FF9000;
+    cursor: pointer;
+    border-radius: 5px;
+
+    font-size: 16px;
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.3);
+
+}
+.heroimg{
+    align-self: left;
+    padding-top: 50px;
+    padding-left: 300px;
+}
+
+.heroimg img{
+    width: 70%;
+}
+.bold{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+
+.secondsection{
+    padding-top: 100px;
+    display: block;
+    align-items: center;
+}
+
+/*Second section*/
+@media (min-width:800px) {
+  .secondsection {
+    display: flex;
+  }
+}
+.circle {
+    width: 50%; /* Adjust the width and height as needed */
+    height: 100%;
+    background-color: #FF9000; /* Set the color of the circle */
+    border-radius: 50%; /* Make the element a circle */
+    position: absolute; /* Position the circle relative to its closest positioned ancestor */
+    z-index: -1; /* Position the circle behind other elements */
+    top: 130px; /* Position the circle vertically */
+    left: 480px; /* Position the circle horizontally */
+    transform: translate(-50%, -50%); /* Center the circle */
+
+  }
+.secimg img{
+    width: 45%;
+    display: block;
+    padding-left: 350px;
+}
+
+.secimg{
+    position: relative;
+}
+
+.sectext h1{
+    font-size: 50px;
+    padding-bottom: 30px;
+    font-weight: bolder;
+}
+.sectext{
+    flex: 0 0 400px;
+}
+
+/*Third section*/
+
+.thirdsection{
+    background-color: #FF9000;
+    display: flex;
+    padding: 0 10%; /* Add 20% margin on each side */
+    justify-content: space-between; /* Distribute items along the main axis */
+
+
+}
+
+.thirdsection img {
+    max-width: 200px; /* Set the maximum width of the images */
+    height: 200px; /* Set the height of the images */
+    margin-right: 100px; /* Add space to the right of each image */
+  }
+  .thirdsection img:first-child{
+    margin-right: 200px;
+  }
+  
+  .thirdsection img:last-child {
+    margin-right: 0; /* Remove margin from the last image */
+  }
+  
+  .thirdsection::before,
+  .thirdsection::after {
+    content: ""; /* Add empty content */
+    flex: 1; /* Distribute available space equally */
+  }
+
+/*Subs*/
+.subs{
+    background-color: #212E41;
+}
+.suba{
+    padding-top: 100px;
+    color: white;
+    text-align: center;
+    font-weight: normal;
+}
+.suba h1{
+    color: white
+    ;
+}
+
+.subb{
+    display: flex;
+    align-items: center;
+    padding: 0 25%;
+    padding-top: 30px;
+}
+
+input[type="text"] {
+    width: 70%;
+    height: 40px;
+    padding: 10px; /* Add padding inside the text box */
+    font-family:  'Poppins', sans-serif ;/* Set the font family */
+    font-size: 16px; /* Set the font size */
+    background-color: white; /* Set the background color */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 5px; /* Add rounded corners */
+    padding-left: 50px;
+  }
+  
+  input[type="text"]:focus {
+    outline: none; /* Remove the default focus outline */
+  }
+
+  .subscribe{
+    margin-left: 10px; /* Add some space between the buttons */
+    width: 30%;
+    padding: 10px;
+    color: white;
+    background-color: #FF9000;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 60px;
+    font-size: 16px;
+  } 
+
+
+  /**/
+
+
+  .foot {
+    background-color: #212E41;
+    color: #656565;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+.footer-right,
+.footer-center,
+.footer-left {
+  flex: 1; /* Each section takes up equal space */
+  padding-left: 100px;
+  margin-left: 50px;
+  width: 80px;
+}
+  
+  .footer-right {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .description{
+    font-size: 12px;
+  }
+  
+  .logo-title {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-title img {
+    max-width: 100px;
+    margin-right: 10px;
+  }
+  
+  .footer-center {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .footer-center a {
+    color: #656565;
+    text-decoration: none;
+  }
+  
+  .footer-center a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  .footer-left,
+  .footer-center,
+  .footer-right {
+    flex: 1;
+  }
+  
+  .footer-right h1 {
+    font-size: 36px;
+    margin-bottom: 5px;
+    font-weight: bolder;
+  }
+  
+  .description {
+    margin-top: 10px; /* Add space between logo-title and description */
+  }
+  .description p{
+    color: #656565;
+  }
+  
+
+  .footer-right h1::before{
+    content: "Hum";
+    color: #FF9000;
+  }
+  .footer-right h1::after{
+    content: "ans";
+    color: white;
+  }
+
+  .copyright{
+    background-color: #212E41;
+    text-align: center;
+    color:  #656565;
+;
+    font-family:  'Poppins', sans-serif ;
+
+  }
+  
